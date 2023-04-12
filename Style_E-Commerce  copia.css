@@ -1,0 +1,62 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: whitesmoke;
+}
+.oggetto{
+  margin: auto;
+  position: relative;
+}
+.oggetto{
+  display: inline-block;
+}
+header{
+  font-family: 'Courier New', Courier, monospace ;
+  font-size: 50px;
+  color: rgb(71, 8, 131);
+  text-align:center;
+  background-color: rgb(212, 180, 241);
+}
+.pag{
+  text-align:center;
+}
+img{
+position: relative;
+}
+.price{
+  background-color: red;
+  width: 50px;
+  height:20px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-align: center;
+  font-family: arial;
+  font-size: 80%
+}
+.price2{
+  background-color: blue;
+  width: 50px;
+  height:20px;
+  position: absolute;
+  right: 0;
+  top:0;
+  text-align: center;
+  font-family: arial;
+  font-size: 80%
+
+}
+.cuore{
+  position: absolute;
+  bottom: 5%;
+  right: 40%;
+  left: 40%;
+  opacity: 0.0;
+  color: red;
+  z-index:10;
+  font-size: 60px;
+}
+.cuore:hover{
+  opacity: 1;
+}
